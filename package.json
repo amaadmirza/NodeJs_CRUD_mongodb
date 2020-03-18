@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_crud",
+  "version": "1.0.0",
+  "description": "basic node application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaadmirza/NodeJs_CRUD_mongodb.git"
+  },
+  "author": "amaadmirza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaadmirza/NodeJs_CRUD_mongodb/issues"
+  },
+  "homepage": "https://github.com/amaadmirza/NodeJs_CRUD_mongodb#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.9.1"
+  }
+}
